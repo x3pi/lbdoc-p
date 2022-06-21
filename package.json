@@ -1,0 +1,22 @@
+{
+  "name": "lbdoc-p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "lbdoc-p": "bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^9.3.0",
+    "json2md": "^1.12.0",
+    "shelljs": "^0.8.5",
+    "vuepress-bar": "^0.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x3pi/lbdoc-p"
+  },
+  "homepage": "https://github.com/x3pi/lbdoc-p#readme"
+}
