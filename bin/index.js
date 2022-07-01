@@ -128,10 +128,10 @@ const renderings = (dir, jsonsInDir) => {
           jsonobj.push({h4:
             `
     {
-      arg: ${obj.methods[property].returns[0].arg},
-      type: ${obj.methods[property].returns[0].type},
-      root: ${String(obj.methods[property].returns[0].root)},
-      description: ${obj.methods[property].returns[0].description}
+      arg: ${obj.methods[property].returns[0]?.arg},
+      type: ${obj.methods[property].returns[0]?.type},
+      root: ${String(obj.methods[property].returns[0]?.root)},
+      description: ${obj.methods[property].returns[0]?.description}
     }
             `
           })
